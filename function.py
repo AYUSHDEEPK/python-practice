@@ -82,7 +82,7 @@ def design(unprinted_design,completed_design):
     orignal=unprinted_design[:]
     while unprinted_design:
         current_design=unprinted_design.pop()
-        print(f"printing models are: ")
+        print(f"printing models are:",current_design)
         completed_design.append(current_design)
     print("\nThe following models have been printed")
     for complete in completed_design:
