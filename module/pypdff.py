@@ -8,3 +8,4 @@ for i in range(1,554):
          str=''
 
 #this will extract the pdf and convert it into text and save each page in each file in hello folder.
+#make sure you have already made a hello folder.
